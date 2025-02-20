@@ -17,7 +17,8 @@ def main():
         print("Error: Message is too long to fit in the image.")
         return
 
-    # Encoding the message
+    # Encoding the message![idi mypic jpg](https://github.com/user-attachments/assets/53029c84-ebdf-40d9-8d39-6066b8bff12e)
+
     for i in range(len(msg)):
         n, m, z = divmod(i, img.shape[1]), i % img.shape[1], i % 3
         img[n, m, z] = ord(msg[i])
@@ -26,8 +27,4 @@ def main():
     os.startfile("stegano.png")  # Use 'os.startfile' for Windows
 
 if __name__ == "__main__":
-       main()
- ![idi mypic jpg](https://github.com/user-attachments/assets/0ec5a739-684e-4cc8-be65-36fab5efa1fc)
-      
-
-    main()
+      main()
